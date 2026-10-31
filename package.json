@@ -25,12 +25,12 @@
     "test": "mex check && node --disable-warning=ExperimentalWarning --test \"cli/test/*.test.ts\" \"shared/*.test.ts\" \"examples/*/*.test.ts\" \"tools/*/*.test.ts\""
   },
   "dependencies": {
-    "gpt-tokenizer": "^4.0.0",
-    "marked": "^16.4.2",
+    "gpt-tokenizer": "^4.1.0",
+    "marked": "^18.1.2",
     "shiki": "^4.5.0"
   },
   "devDependencies": {
     "@biomejs/biome": "2.5.15",
-    "@types/node": "^22.18.0"
+    "@types/node": "^26.6.6"
   }
 }
